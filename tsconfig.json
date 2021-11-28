@@ -7,7 +7,7 @@
       "DOM"
     ],
     "module": "commonjs",
-    "target": "es2020",
+    "target": "ESNext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
