@@ -1,7 +1,7 @@
 /*
  * @Author: yu li
  * @Date: 2021-12-03 20:41:21
- * @LastEditTime: 2021-12-03 21:41:12
+ * @LastEditTime: 2021-12-03 21:43:04
  * @LastEditors: yu li
  * @FilePath: /learn-ts/src/K次取反后最大化的数组和.ts
  * @Description: 文件描述
@@ -27,9 +27,3 @@ function largestSumAfterKNegations(nums: number[], k: number): number {
 
   return nums.reduce((total, num) => total + num)
 };
-
-var a = largestSumAfterKNegations(
-  [2, -3, -1, 5, -4],
-  2
-)
-console.log(a);
